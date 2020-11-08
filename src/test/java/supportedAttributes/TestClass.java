@@ -22,4 +22,18 @@ public class TestClass {
 	   System.out.println(3);
 	   System.out.println();
 	  }
+	
+	@Test (priority=12)
+	public void gitTestBranch() 
+	{ 
+	   System.out.println("GitProject Branch created"); 
+	
+	  }
+	
+	@Test (priority=12)
+	public void gitTestBranch2() 
+	{ 
+	   System.out.println("GitProject Branch 2 is created"); 
+	
+	  }
 }
