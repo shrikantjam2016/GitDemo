@@ -13,4 +13,10 @@ public class TestClass {
 	{ 
 	   System.out.println("Second Test Method 1"); 
 	  }
+	
+	@Test (priority=12)
+	public void gitTest() 
+	{ 
+	   System.out.println("GitProject"); 
+	  }
 }
